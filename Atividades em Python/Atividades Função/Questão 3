@@ -1,0 +1,11 @@
+def eh_par(numero):
+    if (numero%2==0):
+      par= True
+      return par
+    else:
+       par=False
+       return par
+       
+numero=(int(input("Digite e numero para saber se e par ou impar: ")))
+par=True or False
+print (eh_par(numero))

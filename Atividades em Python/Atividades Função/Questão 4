@@ -1,0 +1,12 @@
+def maior_de_tres(a, b, c):
+    if (a >= b and a >= c):
+        return f"Maior A: {a}"
+    elif (b >= a and b >= c):
+        return f"Maior B: {b}"
+    else:
+        return f"Maior C: {c}"
+
+a = int(input("alalal numero A: "))
+b = int(input("alalal numero B: "))
+c = int(input("alalal numero C: "))
+print(maior_de_tres(a, b, c))

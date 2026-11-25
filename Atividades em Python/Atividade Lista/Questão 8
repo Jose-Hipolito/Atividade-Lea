@@ -1,0 +1,15 @@
+cidades = ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Fortaleza", "Salvador", "Curitiba", "Manaus", "Recife", "Porto Alegre", "Goiânia"]
+buscar=str(input("Qual cidade voce quer ver: "))
+for i in range(10):
+    if (buscar == cidades[i]):
+        tutu=False
+        print(f"Encontrado!! Está na posição: {cidades.index(buscar)}")
+        break
+    else:
+        tutu=True
+      
+if (tutu):
+    print("Cidade nao cadastrada")
+    
+
+

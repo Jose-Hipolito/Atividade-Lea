@@ -1,0 +1,16 @@
+def saucacao (horario):
+    if (horario == "manha"):
+        return f"Bom Dia {nome}"
+    if (horario == "tarde"):
+        return f"Boa Tarde {nome}" 
+    if (horario == "noite"):
+        return f"Boa Noite {nome}"
+    else: 
+        return "DIA"
+
+
+nome=str(input("Qual seu nome?: "))
+horario=str(input("Qual o horario? (manha,tarde ou noite): "))
+print (saucacao(horario))
+
+    

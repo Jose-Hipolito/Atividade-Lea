@@ -1,0 +1,14 @@
+def filtrar_pares(lista_numeros):
+    pares = [n for n in lista_numeros if n % 2 == 0]
+    return pares
+
+lista_numeros=[]
+for i in range (12):
+    sahur=int(input("Digite o numero: "))
+    lista_numeros +1= [sahur]
+
+
+
+
+print(filtrar_pares(lista_numeros))  
+

@@ -1,0 +1,7 @@
+list1=[]
+for i in range(10):
+    numb = int(input("Digite qualquer numero: "))
+    list1+=[numb]
+for num in list1:
+    if num%2 == 0:
+        print (num)

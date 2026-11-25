@@ -1,0 +1,7 @@
+semana=["Segunda","Terça","Quarta","Quinta","Sexta","Sábado","Domingo"]
+temp=[]
+for i in range(7):
+    t = float(input("Temperatura de " + semana[i] + ": "))
+    temp += [t]
+med = sum(temp) / 7
+print (f"Temperatura Máxima: {max(temp)} \nTemperatura Mínima: {min(temp)} \nMedia: {med}")

@@ -1,0 +1,11 @@
+list1=[]
+for i in range(5):
+    tung = str(input("Digite os itens do mercado da lista: "))
+    list1+=[tung]
+    
+print(list1[0])
+print(list1[4])
+    
+
+
+
